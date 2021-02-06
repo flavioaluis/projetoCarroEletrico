@@ -1,22 +1,33 @@
 $(document).ready(function(){
 $("#button").click(function(){
-    const rodados = $("#descricao").val();
-    if(!rodados)
+    const rodados1 = $("#descricao").val();
+    if(!rodados1)
     return; //clausula guarda
     var consumo1;
     var reais1;
+    
+  consumo1 = rodados1 / 10 * 2 ;
+  reais1 =  consumo1 * 0,50;
+  
+  $("#consumoenergia").prepend(`<li>${consumo1}<li>`);
+  $("consumo1").val();
+  $("#consumoenergia").prepend(`<li>${reais1}<li>`);
+  $("reais1").val();
+
+})
+
+$("#button").click(function(){
+    const rodados2 = $("#descricao").val();
+    if(!rodados2)
+    return; //clausula guarda
     var consumo2;
     var reais2;
-  consumo1 = rodados / 10 * 2 ;
-  reais1 =  consumo1 * 0,50;
-  consumo2 = rodados / 10;
+  consumo2 = rodados2 / 10;
   reais2= consumo2 * 5;
-  $("#consumoenergia").prepend(`<li>${consumo1}<li>`);
-  $("#consumoenergia").prepend(`<li>${reais1}<li>`);
-  $("#gasolina").prepend(`<li>${consumo2}<li>`);
-  $("#gasreais").prepend(`<li>${reais2}<li>`);
-    
-})
+    $("#gasolina").prepend(`<li>${consumo2}<li>`);
+    $("consumo2").val();
+    $("#gasreais").prepend(`<li>${reais2}<li>`);
+    $("reais2").val();
 
 
 })

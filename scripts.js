@@ -8,17 +8,17 @@ $(document).ready(function(){
 //
 
     $("#10km").click(function(){
-       var consumo1;
-       var reais1;
+       var consumo;
+       var reais;
    
-        consumo1 = 10 / 10 * 2 ;
-        reais1 =  consumo1 * 0.50;
+        consumo = 10 / 10 * 2 ;
+        reais =  consumo * 0.50;
         
   
-        $("#consumoenergia").prepend(`<li>${consumo1}<li>`);
-        $(consumo1).val();
-        $("#energiareais").prepend(`<li>${reais1}<li>`);
-        $(reais1).val();
+        $("#consumoenergia").prepend(`<li>${consumo}<li>`);
+        $(consumo).val();
+        $("#energiareais").prepend(`<li>${reais}<li>`);
+        $(reais).val();
 
 });
 
@@ -97,32 +97,26 @@ $("#400km").click(function(){
 
 });
 
+$("#500km").click(function(){
+    var consumo;
+    var reais;
 
-//
-// -------------------- Carro Combustão --------------------------
-//
-
-
-$("#10kmm").click(function(){
-    var consumo1;
-    var reais1;
-
-     consumo1 = 10 / 10 * 2 ;
-     reais1 =  consumo1 * 0.50;
+     consumo = 500 / 10 * 2 ;
+     reais =  consumo * 0.50;
      
 
-     $("#consumoenergia").prepend(`<li>${consumo1}<li>`);
-     $(consumo1).val();
-     $("#energiareais").prepend(`<li>${reais1}<li>`);
-     $(reais1).val();
+     $("#consumoenergia").prepend(`<li>${consumo}<li>`);
+     $(consumo).val();
+     $("#energiareais").prepend(`<li>${reais}<li>`);
+     $(reais).val();
 
 });
 
-$("#50kmm").click(function(){
+$("#600km").click(function(){
  var consumo;
  var reais;
 
-  consumo = 50 / 10 * 2 ;
+  consumo = 600 / 10 * 2 ;
   reais =  consumo * 0.50;
   
 
@@ -132,6 +126,12 @@ $("#50kmm").click(function(){
   $(reais).val();
 
 });
+
+
+//
+// -------------------- Carro Combustão --------------------------
+//
+
 
 $("#100kmm").click(function(){
  var consumo;
@@ -183,6 +183,36 @@ $("#400kmm").click(function(){
  var reais;
 
   consumo = 400 / 10 * 2 ;
+  reais =  consumo * 0.50;
+  
+
+  $("#consumoenergia").prepend(`<li>${consumo}<li>`);
+  $(consumo).val();
+  $("#energiareais").prepend(`<li>${reais}<li>`);
+  $(reais).val();
+
+});
+
+$("#500kmm").click(function(){
+    var consumo;
+    var reais;
+
+     consumo = 500 / 10 * 2 ;
+     reais =  consumo * 0.50;
+     
+
+     $("#consumoenergia").prepend(`<li>${consumo}<li>`);
+     $(consumo).val();
+     $("#energiareais").prepend(`<li>${reais}<li>`);
+     $(reais).val();
+
+});
+
+$("#600kmm").click(function(){
+ var consumo;
+ var reais;
+
+  consumo = 600 / 10 * 2 ;
   reais =  consumo * 0.50;
   
 

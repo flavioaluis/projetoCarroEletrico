@@ -13,7 +13,7 @@ $(document).ready(function(){
   
         $("#consumoenergia").prepend(`<li>${consumo1}<li>`);
         $(consumo1).val();
-        $("#consumoenergia").prepend(`<li>${reais1}<li>`);
+        $("#energiareais").prepend(`<li>${reais1}<li>`);
         $(reais1).val();
 
 });

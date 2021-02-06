@@ -10,9 +10,9 @@ $("#button").click(function(){
   reais1 =  consumo1 * 0,50;
   
   $("#consumoenergia").prepend(`<li>${consumo1}<li>`);
-  $("consumo1").val();
+  $(consumo1).val();
   $("#consumoenergia").prepend(`<li>${reais1}<li>`);
-  $("reais1").val();
+  $(reais1).val();
 
 })
 
@@ -25,9 +25,9 @@ $("#button").click(function(){
   consumo2 = rodados2 / 10;
   reais2= consumo2 * 5;
     $("#gasolina").prepend(`<li>${consumo2}<li>`);
-    $("consumo2").val();
+    $(consumo2).val();
     $("#gasreais").prepend(`<li>${reais2}<li>`);
-    $("reais2").val();
+    $(reais2).val();
 
 
 })

@@ -1,9 +1,15 @@
 $(document).ready(function(){
-  console.log("dasdasd");   
+  
 //
 // -------------------- Carro Elétrico --------------------------
 //
-    
+
+$("#rangeEletrico").on("slide", function()) {
+ console.log ($("#rangeEletrico").getValue());
+ console.log("auhsasuha");
+});
+
+
 $("#100km").click(function(){
  // const todo = $("#campo").val();
     console.log("dsdasdadas");  

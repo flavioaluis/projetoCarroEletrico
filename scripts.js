@@ -1,52 +1,22 @@
 $(document).ready(function(){
-  
-
-    
-
+  console.log("dasdasd");   
 //
 // -------------------- Carro Elétrico --------------------------
 //
-
-    $("#10km").click(function(){
-       var consumo;
-       var reais;
-   
-        consumo = 10 / 10 * 2 ;
-        reais =  consumo * 0.50;
-        
-  
-        $("#consumoenergia").prepend(`<li>${consumo}<li>`);
-        $(consumo).val();
-        $("#energiareais").prepend(`<li>${reais}<li>`);
-        $(reais).val();
-
-});
-
-$("#50km").click(function(){
-    var consumo;
-    var reais;
-
-     consumo = 50 / 10 * 2 ;
-     reais =  consumo * 0.50;
-     
-
-     $("#consumoenergia").prepend(`<li>${consumo}<li>`);
-     $(consumo).val();
-     $("#energiareais").prepend(`<li>${reais}<li>`);
-     $(reais).val();
-
-});
-
+    
 $("#100km").click(function(){
-    var consumo;
-    var reais;
+ // const todo = $("#campo").val();
+    console.log("dsdasdadas");  
+     
+    const consumo = $("#100km").val();
+    
 
-     consumo = 100 / 10 * 2 ;
-     reais =  consumo * 0.50;
+    // consumo = 100 / 10 * 2 ;
+    // reais =  consumo * 0.50;
      
 
      $("#consumoenergia").prepend(`<li>${consumo}<li>`);
-     $(consumo).val();
+     $("consumo").val();
      $("#energiareais").prepend(`<li>${reais}<li>`);
      $(reais).val();
 
